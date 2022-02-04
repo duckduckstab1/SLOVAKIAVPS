@@ -32,5 +32,4 @@ jobs:
         GOOGLE_REMOTE_PIN: ${{ github.event.inputs.pincode }}
     - name: Keep Running Ubuntu System and keepAlive
     ##  if: ${{ failure() }}
-      run: sleep 6h
 
